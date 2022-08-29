@@ -3,9 +3,27 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--apps-->
+        <scene sceneID="le2-kq-H4x">
+            <objects>
+                <viewController id="Okv-f0-eXf" customClass="AppViewController" customModule="AppStoreClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bFy-Oz-dSJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="cpw-pj-c1c"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="apps" image="app.fill" catalog="system" selectedImage="app" id="QWh-kz-jW3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tuF-ff-eDq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1613" y="585"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ZKT-ot-z4k">
             <objects>
@@ -17,7 +35,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="IHz-k7-YLf" kind="relationship" relationship="viewControllers" id="UL5-W2-Puj"/>
-                        <segue destination="dCG-gw-wTm" kind="relationship" relationship="viewControllers" id="HVK-Tm-5oB"/>
+                        <segue destination="Okv-f0-eXf" kind="relationship" relationship="viewControllers" id="HVK-Tm-5oB"/>
                         <segue destination="aMy-pP-PdA" kind="relationship" relationship="viewControllers" id="SBU-Qp-pcv"/>
                     </connections>
                 </tabBarController>
@@ -29,11 +47,11 @@
         <scene sceneID="SW1-sP-xWW">
             <objects>
                 <viewControllerPlaceholder storyboardName="Games" id="IHz-k7-YLf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Games" selectedImage="rocket" id="cTA-h2-iOS"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="cTA-h2-iOS"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBx-4V-YhI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1593" y="-42"/>
+            <point key="canvasLocation" x="1731" y="-151"/>
         </scene>
         <!--Search-->
         <scene sceneID="ZFV-Js-0SY">
@@ -43,20 +61,14 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oln-dg-uYD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1592" y="135"/>
-        </scene>
-        <!--Apps-->
-        <scene sceneID="9Zh-UH-D8z">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Apps" id="dCG-gw-wTm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Ewd-yd-3jI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3eT-i5-NZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1600" y="50"/>
+            <point key="canvasLocation" x="2590" y="238"/>
         </scene>
     </scenes>
     <resources>
-        <image name="rocket" width="29" height="29"/>
+        <image name="app" catalog="system" width="128" height="114"/>
+        <image name="app.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
