@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZOv-fa-oBH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dbs-K4-s2Z">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--games-->
+        <!--게임-->
         <scene sceneID="tIl-ls-ybm">
             <objects>
                 <viewController id="ZOv-fa-oBH" customClass="GamesViewController" customModule="AppStoreClone" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,11 +18,30 @@
                         <viewLayoutGuide key="safeArea" id="JnK-Fl-skA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="games" image="rocket" id="aWF-di-Otz"/>
+                    <navigationItem key="navigationItem" title="게임" id="oBi-w0-JQd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dT6-JV-osn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1731" y="-151"/>
+            <point key="canvasLocation" x="2640.579710144928" y="-151.33928571428569"/>
+        </scene>
+        <!--games-->
+        <scene sceneID="yjG-nC-mDI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dbs-K4-s2Z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="games" image="rocket" id="aWF-di-Otz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="InZ-2G-Gpl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZOv-fa-oBH" kind="relationship" relationship="rootViewController" id="UW9-VV-38T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2l-jI-k6E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1730.4347826086957" y="-151.33928571428569"/>
         </scene>
     </scenes>
     <resources>

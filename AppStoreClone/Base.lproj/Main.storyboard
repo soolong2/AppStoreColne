@@ -28,32 +28,32 @@
         <!--Games-->
         <scene sceneID="SW1-sP-xWW">
             <objects>
-                <viewControllerPlaceholder storyboardName="Games" id="IHz-k7-YLf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Games" selectedImage="rocket" id="cTA-h2-iOS"/>
+                <viewControllerPlaceholder storyboardIdentifier="GamesViewController" storyboardName="Games" id="IHz-k7-YLf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="게임" selectedImage="rocket" id="cTA-h2-iOS"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBx-4V-YhI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1593" y="-42"/>
+            <point key="canvasLocation" x="1617" y="-42"/>
         </scene>
         <!--Search-->
         <scene sceneID="ZFV-Js-0SY">
             <objects>
-                <viewControllerPlaceholder storyboardName="Search" id="aMy-pP-PdA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="pMR-dQ-lYM"/>
+                <viewControllerPlaceholder storyboardIdentifier="SearchViewController" storyboardName="Search" id="aMy-pP-PdA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="검색" id="pMR-dQ-lYM"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oln-dg-uYD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1592" y="135"/>
+            <point key="canvasLocation" x="1617" y="108"/>
         </scene>
         <!--Apps-->
         <scene sceneID="9Zh-UH-D8z">
             <objects>
-                <viewControllerPlaceholder storyboardName="Apps" id="dCG-gw-wTm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Ewd-yd-3jI"/>
+                <viewControllerPlaceholder storyboardIdentifier="AppViewController" storyboardName="Apps" id="dCG-gw-wTm" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="앱" id="Ewd-yd-3jI"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3eT-i5-NZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1600" y="50"/>
+            <point key="canvasLocation" x="1616" y="30"/>
         </scene>
     </scenes>
     <resources>
