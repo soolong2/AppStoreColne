@@ -24,11 +24,11 @@
             </objects>
             <point key="canvasLocation" x="3500.0000000000005" y="237.72321428571428"/>
         </scene>
-        <!--Search-->
+        <!--검색-->
         <scene sceneID="E5a-Xu-1mC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N5V-1F-oNt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="VyJ-Wf-Egn"/>
+                    <tabBarItem key="tabBarItem" title="검색" image="magnifyingglass" catalog="system" id="VyJ-Wf-Egn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1UM-mf-97Q">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

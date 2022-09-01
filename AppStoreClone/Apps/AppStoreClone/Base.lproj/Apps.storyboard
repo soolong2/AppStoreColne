@@ -24,11 +24,11 @@
             </objects>
             <point key="canvasLocation" x="2521.739130434783" y="584.59821428571422"/>
         </scene>
-        <!--apps-->
+        <!--앱-->
         <scene sceneID="uFH-eD-mwB">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yev-bk-7Vg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="apps" image="Apps" id="QWh-kz-jW3"/>
+                    <tabBarItem key="tabBarItem" title="앱" image="Apps" id="QWh-kz-jW3"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ex6-5x-c5a">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

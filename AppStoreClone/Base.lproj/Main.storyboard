@@ -49,7 +49,7 @@
         <scene sceneID="9Zh-UH-D8z">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="AppViewController" storyboardName="Apps" id="dCG-gw-wTm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="앱" id="Ewd-yd-3jI"/>
+                    <tabBarItem key="tabBarItem" title="앱" id="Ewd-yd-3jI" userLabel="메"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3eT-i5-NZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
